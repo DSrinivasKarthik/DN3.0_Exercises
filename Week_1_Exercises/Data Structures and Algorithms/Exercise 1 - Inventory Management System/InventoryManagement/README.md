@@ -36,7 +36,7 @@
 
 ### Output
 
-    ```sh
+    ```
     Inventory after adding products:
     Product{productId='P001', productName='Laptop', quantity=10, price=800.0}
     Product{productId='P002', productName='Smartphone', quantity=20, price=500.0}
