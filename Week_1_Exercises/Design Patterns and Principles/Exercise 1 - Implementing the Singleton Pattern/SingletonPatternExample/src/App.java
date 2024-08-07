@@ -1,0 +1,11 @@
+public class App {
+    public static void main(String[] args) {
+        Logger logger1 = Logger.getInstance();
+        Logger logger2 = Logger.getInstance();
+
+        logger1.log("Logger 1 instance");
+        logger2.log("Logger 2 instance");
+
+        System.out.println("logger1 == logger2 : " + (logger1 == logger2));
+    }
+}
